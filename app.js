@@ -208,7 +208,6 @@ app.get('/api/law/search', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3000; // Render会提供PORT环境变量
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`✅ 后端服务已启动：监听端口 ${PORT}`);
 });
